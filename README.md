@@ -1,3 +1,5 @@
+[![Tests](https://github.com/adam-choragwicki/Checkers_Game_Qt_Cplusplus_QML/actions/workflows/tests-workflow.yml/badge.svg)](https://github.com/adam-choragwicki/Checkers_Game_Qt_Cplusplus_QML/actions/workflows/tests-workflow.yml)
+
 # Checkers
 
 C++ implementation of the classic Checkers game using Qt 6.9.2. It features standard rules:
