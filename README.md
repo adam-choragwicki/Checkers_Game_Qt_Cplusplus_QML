@@ -3,22 +3,38 @@
 # Checkers
 
 C++ implementation of the classic Checkers game using Qt 6.9.2. It features standard rules:
-
-* capture is mandatory
-* any backward direction, including capture, is possible only for promoted pieces
-* promoted piece can move in any direction, 1 field per turn
+- capture is mandatory
+- any backward direction, including capture, is possible only for promoted pieces
+- promoted piece can move in any direction, 1 field per turn
 
 Frontend is rendered using QML engine.
 
 **Windows executable is provided.**
 
+## Play online
+
+You can play the WebAssembly build here:
+
+https://adam-choragwicki.github.io/games/checkers/index.html
+
 ![checkers.gif](checkers.gif)
 
-# Tests
+## Controls
+
+| Input | Action |
+| --- | --- |
+| **Left Mouse Button** | Select piece |
+| **Left Mouse Button** | Move selected piece to target tile |
+| **Escape** | Open escape menu |
+| **F11** | Toggle fullscreen |
+
+## Tests
+
 Unit tested using Google Test 1.17.0
 
-# How to run on Windows
-1. Download release zip from:\
+## How to run on Windows
+
+1. Download release zip from:  
    https://github.com/adam-choragwicki/Checkers_Game_Qt_Cplusplus_QML/releases/latest/download/executable_windows.zip
 2. Unzip
 3. Run **executable_windows/Checkers.exe**
